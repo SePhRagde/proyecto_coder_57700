@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./css/styles.css">
     <script defer src="./js/main.js"></script>
 </head>
-<body> 
+<body>
 <div class="container">
     <header>
         <h1>Simulador de Créditos</h1>
@@ -44,11 +44,14 @@
                         <button class="boton" id="buscarPago">Buscar</button>
                     </div>
                     <div>
-                        <label for="interesMinimo">Filtrar por interés mayor a (valor sin porcentaje):</label>
+                        <label for="interesMinimo">Filtrar por interés mayor a (valor sin decimales):</label>
                         <input type="number" id="interesMinimo" step="0.01">
                         <button class="boton" id="filtrarInteres">Filtrar</button>
                     </div>
                     <div id="resultadosFiltrados"></div>
+                </fieldset>
+                <fieldset>
+                    <div id="historialSimulaciones"></div>
                 </fieldset>
             </div>
         </div>
